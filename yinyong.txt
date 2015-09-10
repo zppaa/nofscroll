@@ -1,0 +1,18 @@
+{require name="fahao:widget/fhcir/js/circul.js"}
+    <!-- fh-qiang end -->
+    {script type="text/javascript"}
+    seajs.use(['jquery','mfe','debug','fahao/circul'],function($,mfe,debug,circul){
+
+        // $(".j_qiang_item").circulat(
+        //   {
+        //     moveEle:'.j_qiang_item',//运动的元素
+        //     top    :0,//初始化变量
+        //     flag   :false,//调用ajax变量
+        //     parHei :385,//运动父元素的高度
+        //     sonEle :5//初始化时显示的元素个数
+        //   }
+        // )
+     	$(".fahao-cir").kxbdMarquee({ direction:"up",isEqual:true });
+
+	   });
+    {/script}
